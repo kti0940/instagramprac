@@ -49,6 +49,7 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0 5px 0 9px;
+    margin: 10px 0 0 0;
 }
 
 .thumps_up {
@@ -58,11 +59,11 @@
     font-weight: bold;
 }
 
-.user_post {
-    text-align: left;
-    padding: 0 0 0 8px;
-    font-size: 16px;
-}
+/*.user_post {*/
+/*    text-align: left;*/
+/*    padding: 0 0 0 8px;*/
+/*    font-size: 16px;*/
+/*}*/
 
 .friend_post {
     text-align: left;
@@ -115,8 +116,7 @@
 .modal-content {
     border-radius: 25px;
     width: 400px;
-    height: 600px;
-    padding: 3px;
+    height: 610px;
 
     position: fixed;
     top: 50%;
