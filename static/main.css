@@ -71,7 +71,7 @@
 }
 
 .user_id {
-    margin-left: 10px;
+    margin-left: 10px 20px 0 0;
     text-align: left;
     display: flex;
 }
@@ -110,4 +110,16 @@
     font-size: 12px;
     color: #CCCCCC;
     margin: 25px 0 0 35px;
+}
+
+.modal-content {
+    border-radius: 25px;
+    width: 400px;
+    height: 600px;
+    padding: 3px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
